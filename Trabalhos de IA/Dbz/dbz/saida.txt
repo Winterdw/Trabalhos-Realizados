@@ -1,0 +1,8 @@
+suldeste
+noroeste
+suldoeste
+norte
+sul
+leste
+nordeste
+oeste
