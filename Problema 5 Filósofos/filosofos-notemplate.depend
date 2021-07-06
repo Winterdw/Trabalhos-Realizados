@@ -1,0 +1,69 @@
+# depslib dependency file v1.0
+1513006296 source:/home/juliocmalvares/Documents/2017.2/Sistemas Operacionais/filosofos-notemplate/main.cpp
+	<iostream>
+	<cstdlib>
+	"hashi.h"
+	"filosofo.h"
+	"filosofo.cpp"
+	<thread>
+	<chrono>
+	"jantar.h"
+
+1513012164 /home/juliocmalvares/Documents/2017.2/Sistemas Operacionais/filosofos-notemplate/hashi.h
+	<iostream>
+	<atomic>
+	<cstdlib>
+
+1513011716 /home/juliocmalvares/Documents/2017.2/Sistemas Operacionais/filosofos-notemplate/filosofo.h
+	<iostream>
+	<cstdlib>
+	"hashi.h"
+	<atomic>
+
+1512994815 /home/juliocmalvares/Documents/2017.2/Sistemas Operacionais/filosofos-notemplate/filosofo.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	"filosofo.h"
+	"hashi.h"
+	<atomic>
+	<ctime>
+
+1513012165 /home/juliocmalvares/Documents/2017.2/Sistemas Operacionais/filosofos-notemplate/jantar.h
+	<cstdlib>
+	<ctime>
+
+1513009896 source:c:\users\winter\documents\engenharia de computação\matérias\sistemas operacionais\problema 5 filósofos\main.cpp
+	<iostream>
+	<cstdlib>
+	"hashi.h"
+	"filosofo.h"
+	"filosofo.cpp"
+	<thread>
+	<chrono>
+	"jantar.h"
+
+1513015764 c:\users\winter\documents\engenharia de computação\matérias\sistemas operacionais\problema 5 filósofos\hashi.h
+	<iostream>
+	<atomic>
+	<cstdlib>
+
+1513015316 c:\users\winter\documents\engenharia de computação\matérias\sistemas operacionais\problema 5 filósofos\filosofo.h
+	<iostream>
+	<cstdlib>
+	"hashi.h"
+	<atomic>
+
+1512998415 c:\users\winter\documents\engenharia de computação\matérias\sistemas operacionais\problema 5 filósofos\filosofo.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	"filosofo.h"
+	"hashi.h"
+	<atomic>
+	<ctime>
+
+1513015765 c:\users\winter\documents\engenharia de computação\matérias\sistemas operacionais\problema 5 filósofos\jantar.h
+	<cstdlib>
+	<ctime>
+

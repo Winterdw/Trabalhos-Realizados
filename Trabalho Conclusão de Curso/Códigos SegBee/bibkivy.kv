@@ -1,0 +1,36 @@
+<Tela1>:
+    orientation: "vertical"
+    Button:
+        text: "Selecionar Imagem"
+        on_release: root.show_load()
+    Button:
+        text: "Tirar Foto"
+        on_press:root.CameraApp().run
+    Button:
+        text: "Sair"
+        on_press:root.on_press_bt3()
+
+<LoadDialog>:
+    BoxLayout:
+        size:root.size
+        pos:root.pos
+        orientation: 'vertical'
+
+        FileChooserListView:
+            id:filechooser
+        BoxLayout:
+            size_hint_y: None
+            height: 30
+            Button:
+                text: 'Cancelar'
+                on_release:root.cancel()
+            Button:
+                text: 'Carregar'
+                on_release:root.load(filechooser.path,filechooser.selection)  
+                              
+<Tela2>
+    orientation: "vertical"
+    Button:
+        text: "Segmentar"
+        on_release:root.seg(load(filechooser.path,filechooser.selection))
+

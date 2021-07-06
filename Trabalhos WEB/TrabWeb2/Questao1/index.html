@@ -1,0 +1,35 @@
+<!DOCTYPE html >
+<head>
+   <title>Calculadora</title>
+   <link rel="stylesheet" type="text/css" href="css/style.css">
+   <meta charset="utf-8">
+   <script type="text/javascript" src="js/script.js"></script>
+   <meta name="author" content="Daniel Winter Santos Rocha">
+   <meta name="description" content="Trabalho de Programação Web">
+
+</head>
+
+<body>
+   <form name="calcform" method="post" action="">
+      <fieldset>
+         <label for="valor1">Valor <b>1</b>:</label> 
+         <input type="text" name="valor1" id="valor1" />
+
+         <label for="valor2">Valor <b>2</b>:</label> 
+         <input type="text" name="valor2" id="valor2" />
+
+         <label for="oper">Operação:</label>
+         <select name="oper" id="oper">
+            <option value="somar">Somar</option>
+            <option value="subtrair">Subtrair</option>
+            <option value="multiplicar">Multiplicar</option>
+            <option value="dividir">Dividir</option>
+         </select>
+         <label for="res">Resultado:</label>
+         <input type="text" name="res" id="res" />
+
+         <input type="button" value="Calcular" class="botao" onclick="calcular(document.calcform.oper.value)"/>
+      </fieldset>
+   </form>
+</body>
+</html>

@@ -1,0 +1,153 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.phone{
+	padding-top: 119px;
+	padding-right: : 18px;
+	height: 703px;
+	float:right;
+	margin: 0.001px;
+	margin-right: -8px;
+
+
+}
+
+body{
+	background-color:#fafafa!important; /*important apenas para obrigar essa cor para não pegar lixo*/
+}
+
+.container{
+	margn-top:20px;
+}
+
+.right-column{
+	background: #fff;
+	border: 1.3px solid #e6e6e6;
+	width: 350px;
+	margin-top: 42px;
+	margin-left: 4px;
+	margin-right: 10px;
+	margin-bottom: -3px;
+
+	padding: 52px;
+}
+
+.instagram-logo{
+	margin-top: -25px;
+	margin-left: 3px;
+	margin-right: 4px;
+	margin-bottom: 10px;
+}
+
+.info{
+	font-weight: 600px;
+	line-height: 21px;
+	font-size: 17.5px;
+	color: #999;
+}
+
+.btn{
+	width: 267px!important;
+	margin-left: -11px;
+	margin-top: 18px;
+	height: 31px!important;
+	font-size: 14px!important;
+}
+button img{
+	height: 20px!important;
+	padding: 0 8px 2px;
+	margin-left: -17px;
+	margin-top: -5px;
+
+}
+
+
+.ou{
+	font-size: 13px;
+	color: #999;
+	font-weight: 500; 
+	margin-top: 16px;
+}
+
+.ou::before{
+	content: '';
+	background: #efefef;
+	display: block;
+	height: 1px;
+	width: 110px;
+	position: relative;
+	top: 11px;
+}
+
+.ou::after{
+	content: '';
+	background: #efefef;
+	display: block;
+	height: 1px;
+	width: 110px;
+	position: relative;
+	top: -10px;
+	left: 135px;
+}
+
+.form-group{
+	margin-bottom: 6px!important;
+
+}
+.form-control{
+	background: #fafafa!important;
+	border: 0.9px solid #efefef !important;
+	font-size: 12px!important;
+	height: 38px !important;	
+	width: 273px !important;
+	margin-left: -16px!important;
+
+}
+::placeholder{
+	color: #999!important;
+}
+.btn{
+	margin-bottom: 12px auto ;
+	padding: 2px!important;
+	font-weight: 300!important;
+	margin-left: -11.3px auto;
+	margin-top: 13px;
+
+
+}
+.btn-primary{
+	background-color: #3897f0!important;
+	border: 1px solid #3897f0!important;
+
+}
+
+.terms{
+	line-height: 18px;
+	font-size: 12.8px;
+	color: #999;
+	margin: 5px 20px;
+	margin-bottom: -11px;
+}
+.right-column-login{
+	background: #fff;
+	border: 1px solid #e6e6e6;
+	width: 350px;
+	height: 70px;
+	margin-top: 13px;
+	margin-left: 4px;
+	margin-right: 4px;
+	padding: 13px;
+	font-size: 14px!important;
+}
+.right-column-login a:hover{
+	text-decoration: none;
+}
+
+.right-column-app{
+	padding: 13px;
+	margin-top: 5px!important;
+	margin-left: 100px!important;
+	font-size: 14px!important;
+}

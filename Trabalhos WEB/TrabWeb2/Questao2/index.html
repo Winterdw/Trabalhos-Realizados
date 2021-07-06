@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Questionário Joker</title>
+		<meta charset="utf-8">
+		<script type="text/javascript" src="js/script.js"></script>
+		<meta name="author" content="Daniel Winter Santos Rocha">
+  		<meta name="description" content="Trabalho de Programação Web">
+
+	</head>
+	<body>
+
+		<fieldset id="Joker">
+			<p>
+			<label>Nome: </label>
+			<input type="text" id="nome" required>
+			</p>
+			<p>
+			<label>Idade: </label>
+			<input type="text" id="idade" required>
+			</p>
+			<p>
+				<select size="3" id="opiniao" style="width:auto;">
+				    <option value="3">Benzadeus (maravilhoso).</option>
+				    <option value="2">Mais ou menos (mais ou menos).</option>
+				    <option value="1">Tava ruim, tava bom, mas parece que piorou.</option>
+				</select>
+			</p>
+			<input type="submit" value="Confirmar" onclick="submeter_dados()">
+		</fieldset>
+		
+		<script>
+			var nomes=[];
+			var idades=[];
+			var opiniao=[];
+			var iterador=0; 
+			var soma_idades_opiniao_3=0;
+			var quantidade_opiniao_3=0;
+			var quantidade_opiniao_2=0;
+			
+		</script>
+	</body>
+</html>
